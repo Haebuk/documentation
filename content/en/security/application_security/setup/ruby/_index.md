@@ -25,13 +25,26 @@ further_reading:
       text: "Troubleshooting App and API Protection"
 ---
 
+{{< partial name="app_and_api_protection/callout.html" >}}
+
+{{% app_and_api_protection_java_overview showSetup="false" %}}
+
 ## Environments
 
 {{< appsec-integrations >}}
-  {{< appsec-integration name="Docker" avatar="docker" link="./docker" >}}
-  {{< appsec-integration name="Kubernetes" avatar="kubernetes" link="./kubernetes" >}}
   {{< appsec-integration name="Linux" avatar="linux" link="./linux" >}}
   {{< appsec-integration name="macOS" avatar="apple" link="./macos" >}}
+{{< /appsec-integrations >}}
+
+### Cloud and Container Platforms
+{{< appsec-integrations >}}
+{{< appsec-integration name="Docker" avatar="docker" link="./docker" >}}
+{{< appsec-integration name="Kubernetes" avatar="kubernetes" link="./kubernetes" >}}
+{{< /appsec-integrations >}}
+
+### AWS
+{{< appsec-integrations >}}
+{{< appsec-integration name="AWS Fargate" avatar="aws-fargate" link="./aws-fargate" >}}
 {{< /appsec-integrations >}}
 
 ## Additional Resources

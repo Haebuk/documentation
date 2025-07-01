@@ -128,7 +128,6 @@ The following instrumentations are disabled by default and can be enabled with t
 | Ignite                       | `-Ddd.integration.ignite.enabled=true`                                                                   |
 | JAX-WS                       | `-Ddd.integration.jax-ws.enabled=true`                                                                   |
 | JDBC Datasource              | `-Ddd.integration.jdbc-datasource.enabled=true`                                                          |
-| Kotlin Coroutines            | `-Ddd.integration.kotlin_coroutine.experimental.enabled=true`                                            |
 | Mulesoft                     | `-Ddd.integration.mule.enabled=true`                                                                     |
 | Netty Promise                | `-Ddd.integration.netty-promise.enabled=true`                                                            |
 | Ning                         | `-Ddd.integration.ning.enabled=true`                                                                     |
